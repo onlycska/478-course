@@ -34,6 +34,7 @@ public class AssemblyMethodProperties
             Console.WriteLine("\nОписание свойств объекта {0}:", describedClassType.ToString());
 
             // вывод значений свойств 
+            // todo Гораздо проще здесь через linq получить сразу только не-obsolete свойства. См. validator.cs в DSS
             PropertyInfo[] properties = describedClassType.GetProperties();
             Dictionary<string, object> dict = new Dictionary<string, object>();
             foreach (PropertyInfo prp in properties)

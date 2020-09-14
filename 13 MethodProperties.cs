@@ -13,6 +13,7 @@ public class MethodProperties
     /// <param name="describedClass">Описываемый класс</param>
     public void PrintMethodProperties(object describedClass)
     {
+        // todo если describedClass == null (18 строка), то на 17-ой уже будет null ref exception
         Console.WriteLine("\n\n13. Вывод всех свойств объекта {0}\n", describedClass.ToString());
         if (describedClass == null)
         {

@@ -9,6 +9,10 @@ namespace ConsoleApp1
     {
         static void Main()
         {
+            // todo ко всему:
+            // 1. по возможности использовать var
+            // 2. каждое задание лучше сделать в отдельном проекте внутри одного solution-а
+            // 3. хардкодить абсолютные пути не стоит. Лучше сделать файлы ресурсами и в свойствах указывать Copy to output directiry = Copy always (сделал для xml и log)
             // тест создания совещаний - задание 2.1
             Console.WriteLine("\n\n2.1 - создание совещаний с длительностью\n");
             Meeting meeting = new Meeting
@@ -31,6 +35,7 @@ namespace ConsoleApp1
             Console.WriteLine(value: duration);
             while (true)
             {
+                // todo лишнее сравнение с true.
                 if (meet.TimerSetted == true)
                 {
                     System.Threading.Thread.Sleep(1000);
@@ -45,6 +50,7 @@ namespace ConsoleApp1
 
             // задание 5.1-5.2 добавлены тип встречи и пустая дата окончания встречи
             Console.WriteLine("\n\n5.1 - добавлены тип встречи и пустая дата окончания встречи\n");
+            // todo MeetingType должен быть enum-ом
             MeetingWithType meetingwithtype = new MeetingWithType
             {
                 MeetingType = "совещание"
@@ -64,6 +70,8 @@ namespace ConsoleApp1
             // форматирование дат https://metanit.com/sharp/tutorial/19.2.php 
             // форматирование чисел https://metanit.com/sharp/tutorial/7.5.php
 
+            // todo 6-ое задание не нашёл
+
             // задание 7.1 - 7.2 реализация Equals и ==
             Console.WriteLine("\n\n7.1 - 7.2 реализация Equals и ==\n");
             Console.WriteLine(new StringValue("AAA").Equals(new StringValue("AAA")));
@@ -71,6 +79,8 @@ namespace ConsoleApp1
             Console.WriteLine(new StringValue("AAA") != (new StringValue("AAA")));
 
             // самостоятельная 7 - сортировка комплексных чисел
+            // todo Abs должно быть свойством или pure-методом возвращающим длину (без сайд эффектов).
+            // todo Сейчас можно обратиться к публичному полю abs и там будет 0 до вызова метода Abs.
             Console.WriteLine("\n\n7. Сортировка двух комплексных чисел.\n");
             List<Complex> TwoComplexes = new List<Complex>() { new Complex() { Re = 3, Im = 5 }, new Complex() { Re = 2, Im = 2}};
             TwoComplexes.Sort();
@@ -78,7 +88,7 @@ namespace ConsoleApp1
 
             // практическая 8 - подсчёт количества записей в логах
             Console.WriteLine("\n\n8. Подсчёт количества строк в логах за промежуток.\n");
-            string path = @"C:\Users\andriyanov_oe\source\repos\Meeting\ConsoleApp1\filebeat.log";
+            string path = @"./filebeat.log";
             string startDate = "2020-08-23T10:47:24.654+0400";
             string endDate = "2020-08-23T10:49:24.646+0400";
             DateTime.TryParseExact(startDate, "yyyy-MM-ddThh:mm:ss.fffK", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime start);
@@ -88,9 +98,12 @@ namespace ConsoleApp1
             Console.WriteLine("Количество строк с {0} по {1}: {2}", start, end, records);
 
             // самостоятельная 8 - чтобы класс красиво переводился в строку, нужно переопределять метод ToString 
+            // todo Надо реализовать свой ToString в этом задании. Можно взять существующий класс и для него реализовать (meeting, например).
             ToStringTest test = new ToStringTest();
             Console.WriteLine("\n\n8. Переопределение метода ToString\n");
             Console.WriteLine(test.ToString());
+
+            // todo нет 9-го и 10-го заданий.
 
             // самостоятельная 11 - разработать функцию, которая будет находить максимум из трех значений любого, но строго одинакового типа.
             Comparing<int> comparer = new Comparing<int>();
@@ -102,15 +115,19 @@ namespace ConsoleApp1
             Console.WriteLine("Поиск максимума из {0}. Максимум: {1}", theBiggest, comparer.FindMaximum(theBiggest));
 
             // практика 12.1 - Описать структуру хранения данных локализации без создания своих типов.
+            // todo Инициализацию локазлизации лучше делать Lazy
+            // Т.е. сделать какое-то свойство, которое будет заполняться при первом обращении, а при повторном будет использоваться вместо повторной инициализации.
             var locale = new Localization();
             Console.WriteLine("\n\n12. Описать структуру хранения данных локализации без создания своих типов (строки локализации).\n");
             Console.WriteLine(locale.GetValue("E_CANT_CHANGE_PASSWORD_WITH_OS_AUTHENTIFICATION", "en"));
 
             // практика 13 - выводить имена всех read-write свойств полученного объекта и строковые представления значений свойств.
+            // todo внутри класса.
             MethodProperties methodProperties = new MethodProperties();
             methodProperties.PrintMethodProperties(meetingwithtype);
 
             // самостоятельная 13 - вывод имен всех свойств кроме Obsolete с помощью конструктора класса
+            // todo Лучше использование и инициализацию держать рядом (т.е. 127 строчку перенести перед 131) + см. замечания в классе AssemblyMethodProperties
             AssemblyMethodProperties assemblyMethodProperties = new AssemblyMethodProperties();
             var currentAssembly = Assembly.GetExecutingAssembly();
             string currentAssemblyName = currentAssembly.FullName;
@@ -118,11 +135,17 @@ namespace ConsoleApp1
             assemblyMethodProperties.PrintMethodProperties(currentAssemblyName, findedClass);
 
             // самостоятельная 14 - чтение XML
-            ReadXMLfromFile.ReadXml(@"C:\Users\andriyanov_oe\source\repos\Meeting\ConsoleApp1\14XML.xml");
+            ReadXMLfromFile.ReadXml(@"./14XML.xml");
+
+            // todo В 15-ом задании надо собрать две версии одной библиотеки.
+            // Например, код для 13-го задания (классы встреч) вынести в отдельный проект и дважды собрать в виде dll с разными начальными значениями.
+            // И потом загрузить их через reflection в разные домены приложений и вывести значения.
 
             // практика 17 - раннее связывание в Excel
             var excelCreation = new ExcelEarlyBinding();
             excelCreation.CreateExcel(@"C:\EarlyBinding.xls");
+
+            // todo в 17.1 надо сделать всё то же самое, но oXl создать через Activator.CreateInstance(Type.GetTypeFromProgID("Excel.Application"));
 
             // практика 17 - позднее связывание в excel
             // var lateExcelCreation = new ExcelLateBinding();
