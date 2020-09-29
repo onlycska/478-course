@@ -1,0 +1,6 @@
+C:\Users\andriyanov_oe\source\repos\Meeting\MethodProperties\bin\Debug\MethodProperties.dll
+C:\Users\andriyanov_oe\source\repos\Meeting\MethodProperties\bin\Debug\MethodProperties.pdb
+C:\Users\andriyanov_oe\source\repos\Meeting\MethodProperties\obj\Debug\MethodProperties.csproj.CoreCompileInputs.cache
+C:\Users\andriyanov_oe\source\repos\Meeting\MethodProperties\obj\Debug\MethodProperties.dll
+C:\Users\andriyanov_oe\source\repos\Meeting\MethodProperties\obj\Debug\MethodProperties.pdb
+C:\Users\andriyanov_oe\source\repos\Meeting\MethodProperties\obj\Debug\MethodProperties.csprojAssemblyReference.cache

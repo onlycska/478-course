@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<configuration>
-  <ProgramSettings IntSetting="123" StrSetting="456">
-    <clear />
-    <add SubSetting="Name" SubSettingValue="value" />
-  </ProgramSettings>
-</configuration>

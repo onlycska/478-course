@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>true</DelaySign>
+    <Version>2.1.3</Version>
+    <AssemblyVersion>2.0.3.0</AssemblyVersion>
+    <AssemblyName>DLLMethodProperties2</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Meeting\Meeting.csproj" />
+  </ItemGroup>
+
+</Project>

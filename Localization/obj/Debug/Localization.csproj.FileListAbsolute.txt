@@ -1,0 +1,5 @@
+C:\Users\andriyanov_oe\source\repos\Meeting\Localization\bin\Debug\Localization.dll
+C:\Users\andriyanov_oe\source\repos\Meeting\Localization\bin\Debug\Localization.pdb
+C:\Users\andriyanov_oe\source\repos\Meeting\Localization\obj\Debug\Localization.csproj.CoreCompileInputs.cache
+C:\Users\andriyanov_oe\source\repos\Meeting\Localization\obj\Debug\Localization.dll
+C:\Users\andriyanov_oe\source\repos\Meeting\Localization\obj\Debug\Localization.pdb
