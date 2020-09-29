@@ -1,0 +1,9 @@
+C:\Users\andriyanov_oe\source\repos\Meeting\FileByDescendingStrings\bin\Debug\FileByDescendingStrings.dll
+C:\Users\andriyanov_oe\source\repos\Meeting\FileByDescendingStrings\bin\Debug\FileByDescendingStrings.pdb
+C:\Users\andriyanov_oe\source\repos\Meeting\FileByDescendingStrings\bin\Debug\FileByStrings.dll
+C:\Users\andriyanov_oe\source\repos\Meeting\FileByDescendingStrings\bin\Debug\FileByStrings.pdb
+C:\Users\andriyanov_oe\source\repos\Meeting\FileByDescendingStrings\obj\Debug\FileByDescendingStrings.csprojAssemblyReference.cache
+C:\Users\andriyanov_oe\source\repos\Meeting\FileByDescendingStrings\obj\Debug\FileByDescendingStrings.csproj.CoreCompileInputs.cache
+C:\Users\andriyanov_oe\source\repos\Meeting\FileByDescendingStrings\obj\Debug\FileByDescendingStrings.csproj.CopyComplete
+C:\Users\andriyanov_oe\source\repos\Meeting\FileByDescendingStrings\obj\Debug\FileByDescendingStrings.dll
+C:\Users\andriyanov_oe\source\repos\Meeting\FileByDescendingStrings\obj\Debug\FileByDescendingStrings.pdb

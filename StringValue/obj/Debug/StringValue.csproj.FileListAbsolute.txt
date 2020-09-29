@@ -1,0 +1,6 @@
+C:\Users\andriyanov_oe\source\repos\Meeting\StringValue\bin\Debug\StringValue.dll
+C:\Users\andriyanov_oe\source\repos\Meeting\StringValue\bin\Debug\StringValue.pdb
+C:\Users\andriyanov_oe\source\repos\Meeting\StringValue\obj\Debug\StringValue.csproj.CoreCompileInputs.cache
+C:\Users\andriyanov_oe\source\repos\Meeting\StringValue\obj\Debug\StringValue.dll
+C:\Users\andriyanov_oe\source\repos\Meeting\StringValue\obj\Debug\StringValue.pdb
+C:\Users\andriyanov_oe\source\repos\Meeting\StringValue\obj\Debug\StringValue.csprojAssemblyReference.cache
