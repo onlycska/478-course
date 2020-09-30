@@ -1,0 +1,308 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\ConsoleApp1\\ConsoleApp1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Complex\\Complex.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Complex\\Complex.csproj",
+        "projectName": "Complex",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Complex\\Complex.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\ConsoleApp1\\ConsoleApp1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectName": "MyFirstApp",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\andriyanov_oe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\ConsoleApp1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andriyanov_oe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Complex\\Complex.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Complex\\Complex.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Excel\\Excel.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Excel\\Excel.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\FileByDescendingStrings\\FileByDescendingStrings.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\FileByDescendingStrings\\FileByDescendingStrings.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\FindMaximum\\FindMaximum.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\FindMaximum\\FindMaximum.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\LoadGZippedText\\LoadGZippedText.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\LoadGZippedText\\LoadGZippedText.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Localization\\Localization.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Localization\\Localization.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Logger\\Logger.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Logger\\Logger.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\LogRecordsCount\\LogRecordsCount.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\LogRecordsCount\\LogRecordsCount.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Meeting\\Meeting.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Meeting\\Meeting.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\MethodProperties\\MethodProperties.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\MethodProperties\\MethodProperties.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Reminder\\Reminder.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Reminder\\Reminder.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Rights\\Rights.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Rights\\Rights.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\StringValue\\StringValue.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\StringValue\\StringValue.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\XML\\XML.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\XML\\XML.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Extended.Wpf.Toolkit": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.9.0, )"
+            },
+            "NPoco": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "System.Collections.NonGeneric": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Westwind.Utilities": {
+              "target": "Package",
+              "version": "[3.0.47, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Excel\\Excel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Excel\\Excel.csproj",
+        "projectName": "Excel",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Excel\\Excel.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\FileByDescendingStrings\\FileByDescendingStrings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\FileByDescendingStrings\\FileByDescendingStrings.csproj",
+        "projectName": "FileByDescendingStrings",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\FileByDescendingStrings\\FileByDescendingStrings.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\FileByStrings\\FileByStrings.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\FileByStrings\\FileByStrings.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\FileByStrings\\FileByStrings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\FileByStrings\\FileByStrings.csproj",
+        "projectName": "FileByStrings",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\FileByStrings\\FileByStrings.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\FindMaximum\\FindMaximum.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\FindMaximum\\FindMaximum.csproj",
+        "projectName": "FindMaximum",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\FindMaximum\\FindMaximum.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\LoadGZippedText\\LoadGZippedText.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\LoadGZippedText\\LoadGZippedText.csproj",
+        "projectName": "LoadGZippedText",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\LoadGZippedText\\LoadGZippedText.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Localization\\Localization.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Localization\\Localization.csproj",
+        "projectName": "Localization",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Localization\\Localization.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Logger\\Logger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Logger\\Logger.csproj",
+        "projectName": "Logger",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Logger\\Logger.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\LogRecordsCount\\LogRecordsCount.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\LogRecordsCount\\LogRecordsCount.csproj",
+        "projectName": "LogRecordsCount",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\LogRecordsCount\\LogRecordsCount.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Meeting\\Meeting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Meeting\\Meeting.csproj",
+        "projectName": "Meeting",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Meeting\\Meeting.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Reminder\\Reminder.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Reminder\\Reminder.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\MethodProperties\\MethodProperties.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\MethodProperties\\MethodProperties.csproj",
+        "projectName": "MethodProperties",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\MethodProperties\\MethodProperties.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Reminder\\Reminder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Reminder\\Reminder.csproj",
+        "projectName": "Reminder",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Reminder\\Reminder.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Rights\\Rights.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Rights\\Rights.csproj",
+        "projectName": "Rights",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Rights\\Rights.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\StringValue\\StringValue.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\StringValue\\StringValue.csproj",
+        "projectName": "StringValue",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\StringValue\\StringValue.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\XML\\XML.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\XML\\XML.csproj",
+        "projectName": "XML",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\XML\\XML.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

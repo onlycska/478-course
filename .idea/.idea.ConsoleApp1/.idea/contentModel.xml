@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\andriyanov_oe\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\andriyanov_oe\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_ConsoleApp1.-622731966.00" t="ExcludeRecursive" />
+    <e p="C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course" t="IncludeFlat">
+      <e p="Complex" t="IncludeRecursive">
+        <e p="7S Complex.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Complex.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="ConsoleApp1" t="IncludeRecursive">
+        <e p="14XML.xml" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ConsoleApp1.csproj" t="IncludeRecursive" />
+        <e p="filebeat.log" t="Include" />
+        <e p="key.snk" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="ConsoleApp1.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="ConsoleApp1.sln" t="IncludeFlat" />
+      <e p="DLLMethodProperties" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DLLMethodProperties.cs" t="Include" />
+        <e p="DLLMethodProperties.csproj" t="IncludeRecursive" />
+        <e p="key.snk" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="DLLMethodProperties.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="PublishProfiles" t="Include">
+            <e p="FolderProfile.pubxml" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Excel" t="IncludeRecursive">
+        <e p="17 ExcelEarlyBinding.cs" t="Include" />
+        <e p="17 ExcelLateBinding.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Excel.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="FileByDescendingStrings" t="IncludeRecursive">
+        <e p="18 FileByDescendingStrings.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="FileByDescendingStrings.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SimpleInfo.cs" t="Include" />
+      </e>
+      <e p="FileByStrings" t="IncludeRecursive">
+        <e p="12S FileByStrings.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="FileByStrings.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="FindMaximum" t="IncludeRecursive">
+        <e p="11S FindMaximum.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="FindMaximum.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="LoadGZippedText" t="IncludeRecursive">
+        <e p="10.2 LoadFileException.cs" t="Include" />
+        <e p="9 - 10.1 LoadGZippedText.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LoadGZippedText.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Localization" t="IncludeRecursive">
+        <e p="12.1 Localization.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Localization.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Logger" t="IncludeRecursive">
+        <e p="6S Logger.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Logger.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="LogRecordsCount" t="IncludeRecursive">
+        <e p="8 LogRecordsCount.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="LogRecordsCount.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Meeting" t="IncludeRecursive">
+        <e p="2.1 Meeting.cs" t="Include" />
+        <e p="2.1S MeetingFactory.cs" t="Include" />
+        <e p="2.2 - 2.4 MeetingWithRemind.cs" t="Include" />
+        <e p="5.1 - 5.2 MeetingWithType.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Meeting.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="MethodProperties" t="IncludeRecursive">
+        <e p="13 MethodProperties.cs" t="Include" />
+        <e p="13S AssemblyMethodProperties.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MethodProperties.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Reminder" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="IRemind.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Reminder.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Rights" t="IncludeRecursive">
+        <e p="5.1S Rights.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Rights.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="StringValue" t="IncludeRecursive">
+        <e p="7.1 - 7.2 StringValue.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="StringValue.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="XML" t="IncludeRecursive">
+        <e p="14 XML.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="XML.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
