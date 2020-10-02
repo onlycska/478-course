@@ -1,0 +1,15 @@
+C:\Users\andriyanov_oe\source\repos\Meeting\LoadGZippedText\bin\Debug\LoadGZippedText.dll
+C:\Users\andriyanov_oe\source\repos\Meeting\LoadGZippedText\bin\Debug\LoadGZippedText.pdb
+C:\Users\andriyanov_oe\source\repos\Meeting\LoadGZippedText\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\andriyanov_oe\source\repos\Meeting\LoadGZippedText\obj\Debug\LoadGZippedText.csprojAssemblyReference.cache
+C:\Users\andriyanov_oe\source\repos\Meeting\LoadGZippedText\obj\Debug\LoadGZippedText.csproj.CoreCompileInputs.cache
+C:\Users\andriyanov_oe\source\repos\Meeting\LoadGZippedText\obj\Debug\LoadGZippedText.csproj.CopyComplete
+C:\Users\andriyanov_oe\source\repos\Meeting\LoadGZippedText\obj\Debug\LoadGZippedText.dll
+C:\Users\andriyanov_oe\source\repos\Meeting\LoadGZippedText\obj\Debug\LoadGZippedText.pdb
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\LoadGZippedText\bin\Debug\LoadGZippedText.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\LoadGZippedText\bin\Debug\LoadGZippedText.pdb
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\LoadGZippedText\obj\Debug\LoadGZippedText.csprojAssemblyReference.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\LoadGZippedText\obj\Debug\LoadGZippedText.csproj.CoreCompileInputs.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\LoadGZippedText\obj\Debug\LoadGZippedText.csproj.CopyComplete
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\LoadGZippedText\obj\Debug\LoadGZippedText.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\LoadGZippedText\obj\Debug\LoadGZippedText.pdb

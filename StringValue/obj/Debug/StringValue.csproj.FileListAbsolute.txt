@@ -1,0 +1,12 @@
+C:\Users\andriyanov_oe\source\repos\Meeting\StringValue\bin\Debug\StringValue.dll
+C:\Users\andriyanov_oe\source\repos\Meeting\StringValue\bin\Debug\StringValue.pdb
+C:\Users\andriyanov_oe\source\repos\Meeting\StringValue\obj\Debug\StringValue.csproj.CoreCompileInputs.cache
+C:\Users\andriyanov_oe\source\repos\Meeting\StringValue\obj\Debug\StringValue.dll
+C:\Users\andriyanov_oe\source\repos\Meeting\StringValue\obj\Debug\StringValue.pdb
+C:\Users\andriyanov_oe\source\repos\Meeting\StringValue\obj\Debug\StringValue.csprojAssemblyReference.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\StringValue\bin\Debug\StringValue.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\StringValue\bin\Debug\StringValue.pdb
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\StringValue\obj\Debug\StringValue.csprojAssemblyReference.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\StringValue\obj\Debug\StringValue.csproj.CoreCompileInputs.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\StringValue\obj\Debug\StringValue.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\StringValue\obj\Debug\StringValue.pdb

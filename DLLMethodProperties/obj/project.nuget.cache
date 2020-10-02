@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZxuLZB4zMHEM39QeqXiimqvLgmqL0gFr1icHvGQU+sQAhiMhtW7Vb65Iqg4hKPnHe83O/U7g56ssO4eRQZQqpw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\DLLMethodProperties\\DLLMethodProperties.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andriyanov_oe\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\andriyanov_oe\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

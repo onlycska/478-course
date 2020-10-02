@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MainProgram\\MainProgram.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MainProgram\\MainProgram.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MainProgram\\MainProgram.csproj",
+        "projectName": "MyFirstApp",
+        "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MainProgram\\MainProgram.csproj",
+        "packagesPath": "C:\\Users\\andriyanov_oe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MainProgram\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\andriyanov_oe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MeetingFactory\\MeetingFactory.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MeetingFactory\\MeetingFactory.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MeetingWithRemind\\MeetingWithRemind.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MeetingWithRemind\\MeetingWithRemind.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MeetingWithType\\MeetingWithType.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MeetingWithType\\MeetingWithType.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Meeting\\Meeting.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Meeting\\Meeting.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Reminder\\Reminder.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Reminder\\Reminder.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Rights\\Rights.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Rights\\Rights.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Extended.Wpf.Toolkit": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.9.0, )"
+            },
+            "NPoco": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "System.Collections.NonGeneric": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Westwind.Utilities": {
+              "target": "Package",
+              "version": "[3.0.47, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MeetingFactory\\MeetingFactory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MeetingFactory\\MeetingFactory.csproj",
+        "projectName": "MeetingFactory",
+        "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MeetingFactory\\MeetingFactory.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Meeting\\Meeting.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Meeting\\Meeting.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MeetingWithRemind\\MeetingWithRemind.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MeetingWithRemind\\MeetingWithRemind.csproj",
+        "projectName": "MeetingWithRemind",
+        "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MeetingWithRemind\\MeetingWithRemind.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Meeting\\Meeting.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Meeting\\Meeting.csproj"
+              },
+              "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Reminder\\Reminder.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Reminder\\Reminder.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MeetingWithType\\MeetingWithType.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MeetingWithType\\MeetingWithType.csproj",
+        "projectName": "MeetingWithType",
+        "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\MeetingWithType\\MeetingWithType.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Meeting\\Meeting.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Meeting\\Meeting.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Meeting\\Meeting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Meeting\\Meeting.csproj",
+        "projectName": "Meeting",
+        "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Meeting\\Meeting.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Reminder\\Reminder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Reminder\\Reminder.csproj",
+        "projectName": "Reminder",
+        "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Reminder\\Reminder.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Rights\\Rights.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Rights\\Rights.csproj",
+        "projectName": "Rights",
+        "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Rights\\Rights.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

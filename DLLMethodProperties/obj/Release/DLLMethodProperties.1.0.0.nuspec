@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DLLMethodProperties</id>
+    <version>1.0.0</version>
+    <authors>DLLMethodProperties</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\andriyanov_oe\source\repos\Meeting\DLLMethodProperties\bin\Release\netstandard2.0\DLLMethodProperties.dll" target="lib\netstandard2.0\DLLMethodProperties.dll" />
+  </files>
+</package>

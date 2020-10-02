@@ -1,0 +1,8 @@
+C:\Users\andriyanov_oe\source\repos\Meeting\MainProgram\obj\Debug\netcoreapp3.1\MyFirstApp.dll
+C:\Users\andriyanov_oe\source\repos\Meeting\MainProgram\obj\Debug\netcoreapp3.1\MyFirstApp.pdb
+C:\Users\andriyanov_oe\source\repos\Meeting\MainProgram\obj\Debug\netcoreapp3.1\MainProgram.csprojAssemblyReference.cache
+C:\Users\andriyanov_oe\source\repos\Meeting\MainProgram\obj\Debug\netcoreapp3.1\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\andriyanov_oe\source\repos\Meeting\MainProgram\obj\Debug\netcoreapp3.1\MainProgram.csproj.ResolveComReference.cache
+C:\Users\andriyanov_oe\source\repos\Meeting\MainProgram\obj\Debug\netcoreapp3.1\MainProgram.AssemblyInfoInputs.cache
+C:\Users\andriyanov_oe\source\repos\Meeting\MainProgram\obj\Debug\netcoreapp3.1\MainProgram.AssemblyInfo.cs
+C:\Users\andriyanov_oe\source\repos\Meeting\MainProgram\obj\Debug\netcoreapp3.1\MainProgram.csproj.CoreCompileInputs.cache
