@@ -33,10 +33,8 @@ namespace ConsoleApp1
             Console.WriteLine(meeting.MeetingDuration());
 
             // задания 2.2 - 2.4 создание интерфейса IRemind и его наследника - встречу с напоминанием
-            Console.WriteLine("\n\n2.2-2.4 - создание интерфейса IRemind и его наследника - встречу с напоминанием\n");
-            var meet = new MeetingWithRemind
+            var meet = new MeetingWithRemind(DateTime.Now)
             {
-                RemindDate = DateTime.Now,
                 StartDate = DateTime.Now,
                 EndDate = DateTime.Now
             };
@@ -44,16 +42,6 @@ namespace ConsoleApp1
             ((IRemind)meet).RemindDate = DateTime.Now;
             var duration = meet.MeetingDuration();
             Console.WriteLine(value: duration);
-            while (true)
-            {
-                // todo лишнее сравнение с true.
-                // +
-                if (meet.TimerSetted)
-                {
-                    System.Threading.Thread.Sleep(1000);
-                    break;
-                }
-            }
 
             // самостоятельная работа 2 - реализация класса встреч через MeetingFactory
             Console.WriteLine("\n\n2S - реализация класса встреч через MeetingFactory\n");

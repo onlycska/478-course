@@ -29,7 +29,7 @@ namespace ConsoleApp1
             }
             catch (FileNotFoundException e)
             {
-                string output = String.Format("Ошибка: {0}\nПо пути {1} файл не был найден", e, path);
+                string output = String.Format($"Ошибка: {e}\nПо пути {path} файл не был найден");
                 throw new FileNotFoundException(output);
             }
         }

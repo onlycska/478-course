@@ -6,16 +6,17 @@ namespace ConsoleApp1
     /// Встреча с напоминанием.
     /// </summary>
     public class MeetingWithRemind : Meeting.Meeting, IRemind
-    {  
-       
-        // DateTime IRemind.RemindDate { get; set; }
-
+    {
         public delegate void RemindTimer(string msg);
         public event RemindTimer TimerHandler;
 
         private static System.Timers.Timer aTimer;
 
-        public bool TimerSetted { get; set; }
+        public MeetingWithRemind(DateTime remindDate)
+        {
+            SetTimer();
+            this.RemindDate = remindDate;
+        }
 
         /// <summary>
         /// Установка таймера
@@ -28,7 +29,6 @@ namespace ConsoleApp1
             this.TimerHandler += AnotherMessage;
             aTimer.AutoReset = true;
             aTimer.Enabled = true;
-            this.TimerSetted = true;
         }
 
         /// <summary>
@@ -38,20 +38,18 @@ namespace ConsoleApp1
         /// <param name="e"></param>
         private void ATimer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
-            if (DateTime.Now >= remindDate)
-            {
-                TimerHandler("Событие наступило");
-                this.TimerSetted = false;
-                aTimer.AutoReset = false;
-                aTimer.Enabled = false;
-            }
+            if (DateTime.Now < remindDate) return;
+            Console.WriteLine("\n\n2.2-2.4 - создание интерфейса IRemind и его наследника - встречу с напоминанием\n");
+            TimerHandler?.Invoke("Событие наступило");
+            aTimer.AutoReset = false;
+            aTimer.Enabled = false;
         }
 
         /// <summary>
         /// Напоминание о наступлении события
         /// </summary>
         /// <param name="message">Сообщение для вывода пользователю.</param>
-        private void AnotherMessage(string message)
+        static void AnotherMessage(string message)
         {
             Console.WriteLine("Another Message: " + message);
             
@@ -61,7 +59,7 @@ namespace ConsoleApp1
         /// Сообщение для вывода пользователю.
         /// </summary>
         /// <param name="msg">Текст сообщения.</param>
-        public void Message(string msg)
+        static void Message(string msg)
         {
             Console.WriteLine(msg);
         }
@@ -78,7 +76,6 @@ namespace ConsoleApp1
             set
             {
                 remindDate = value;
-                if (!this.TimerSetted) SetTimer();
             }
         }
 
