@@ -7,3 +7,12 @@ C:\Users\andriyanov_oe\source\repos\Meeting\Meeting\obj\Debug\Meeting.pdb
 C:\Users\andriyanov_oe\source\repos\Meeting\Meeting\bin\Debug\Reminder.dll
 C:\Users\andriyanov_oe\source\repos\Meeting\Meeting\bin\Debug\Reminder.pdb
 C:\Users\andriyanov_oe\source\repos\Meeting\Meeting\obj\Debug\Meeting.csproj.CopyComplete
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Meeting\bin\Debug\Meeting.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Meeting\bin\Debug\Meeting.pdb
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Meeting\bin\Debug\Reminder.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Meeting\bin\Debug\Reminder.pdb
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Meeting\obj\Debug\Meeting.csprojAssemblyReference.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Meeting\obj\Debug\Meeting.csproj.CoreCompileInputs.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Meeting\obj\Debug\Meeting.csproj.CopyComplete
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Meeting\obj\Debug\Meeting.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Meeting\obj\Debug\Meeting.pdb

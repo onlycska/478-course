@@ -12,6 +12,10 @@ namespace ConsoleApp1
     {
         public T FindMaximum(List<T> list)
         {
+            if (list.Count != 3)
+            {
+                throw new ArgumentException("Передаваемый список должен содержать только 3 аргумента");
+            }
             if (list[0].CompareTo(list[1]) > 0 && list[0].CompareTo(list[2]) > 0)
             {
                 return list[0];

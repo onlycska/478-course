@@ -4,3 +4,9 @@ C:\Users\andriyanov_oe\source\repos\Meeting\Reminder\obj\Debug\Reminder.csproj.C
 C:\Users\andriyanov_oe\source\repos\Meeting\Reminder\obj\Debug\Reminder.dll
 C:\Users\andriyanov_oe\source\repos\Meeting\Reminder\obj\Debug\Reminder.pdb
 C:\Users\andriyanov_oe\source\repos\Meeting\Reminder\obj\Debug\Reminder.csprojAssemblyReference.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Reminder\bin\Debug\Reminder.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Reminder\bin\Debug\Reminder.pdb
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Reminder\obj\Debug\Reminder.csprojAssemblyReference.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Reminder\obj\Debug\Reminder.csproj.CoreCompileInputs.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Reminder\obj\Debug\Reminder.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Reminder\obj\Debug\Reminder.pdb

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace ConsoleApp1
@@ -15,17 +16,22 @@ namespace ConsoleApp1
         /// <returns>Generic-коллекция строк файла.</returns>
         public List<string> ParseFile(string path)
         {
-            if (File.Exists(path))
+            try
             {
                 string[] fileStrings = File.ReadAllLines(path);
                 List<string> parsedFile = new List<string>();
-                foreach(string line in fileStrings)
+                foreach (string line in fileStrings)
                 {
                     parsedFile.Add(line);
                 }
+
                 return parsedFile;
             }
-            throw new FileNotFoundException("File doesn't exist");
+            catch (FileNotFoundException e)
+            {
+                string output = String.Format("Ошибка: {0}\nПо пути {1} файл не был найден", e, path);
+                throw new FileNotFoundException(output);
+            }
         }
     }
 }

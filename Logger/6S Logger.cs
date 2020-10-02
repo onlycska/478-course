@@ -79,8 +79,8 @@ namespace ConsoleApp1
                 if (disposing)
                 {
                     // Освобождаем управляемые ресурсы (присваиваем в null).
-                    this.logFile = null;
-                    this.logWriter = null;
+                    this.logFile.Dispose();
+                    this.logWriter.Dispose();
                 }
                 this.disposed = true;
             }

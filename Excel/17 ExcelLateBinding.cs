@@ -79,6 +79,8 @@ namespace ConsoleApp1
             finally
             {
                 // Закрытие всех COM-объектов Excel, чтобы процесс Excel.exe мог закрыться.
+                // сделано по образу и подобию ответа Shai в вопросе:
+                // https://stackoverflow.com/questions/8490564/getting-excel-application-process-id/15556843
                 while (Marshal.ReleaseComObject(workbook) > 0) { }
                 workbook = null;
                 while (Marshal.ReleaseComObject(oSheet) > 0) { }

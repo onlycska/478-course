@@ -17,37 +17,40 @@ namespace ConsoleApp1
             XmlTextReader reader = new XmlTextReader(fileName);
             Console.WriteLine("\n\n14. Чтение XML из файла {0}:\n", fileName);
 
-            while (reader.Read())
+            using (reader)
             {
-                switch (reader.NodeType)
+                while (reader.Read())
                 {
-                    // шапка XML с её содержимым
-                    case XmlNodeType.XmlDeclaration:
-                        Console.Write("<?" + reader.Name);
-                        while (reader.MoveToNextAttribute()) // Чтение атрибутов.
-                            Console.Write(" " + reader.Name + "=" + reader.Value + "'");
-                        Console.WriteLine("?>");
-                        break;
+                    switch (reader.NodeType)
+                    {
+                        // шапка XML с её содержимым
+                        case XmlNodeType.XmlDeclaration:
+                            Console.Write("<?" + reader.Name);
+                            while (reader.MoveToNextAttribute()) // Чтение атрибутов.
+                                Console.Write(" " + reader.Name + "=" + reader.Value + "'");
+                            Console.WriteLine("?>");
+                            break;
 
-                    // элемент XML с его содержимым
-                    case XmlNodeType.Element: // Узел является элементом.
-                        Console.Write("<" + reader.Name);
-                        while (reader.MoveToNextAttribute()) // Чтение атрибутов.
-                            Console.Write(" " + reader.Name + "='" + reader.Value + "'");
-                        Console.WriteLine(">");
-                        break;
+                        // элемент XML с его содержимым
+                        case XmlNodeType.Element: // Узел является элементом.
+                            Console.Write("<" + reader.Name);
+                            while (reader.MoveToNextAttribute()) // Чтение атрибутов.
+                                Console.Write(" " + reader.Name + "='" + reader.Value + "'");
+                            Console.WriteLine(">");
+                            break;
 
-                    // текст в XML
-                    case XmlNodeType.Text: // Вывести текст в каждом элементе.
-                        Console.WriteLine(reader.Value);
-                        Console.WriteLine("Text");
-                        break;
+                        // текст в XML
+                        case XmlNodeType.Text: // Вывести текст в каждом элементе.
+                            Console.WriteLine(reader.Value);
+                            Console.WriteLine("Text");
+                            break;
 
-                    // конец элемента в XML
-                    case XmlNodeType.EndElement: // Вывести конец элемента.
-                        Console.Write("</" + reader.Name);
-                        Console.WriteLine(">");
-                        break;
+                        // конец элемента в XML
+                        case XmlNodeType.EndElement: // Вывести конец элемента.
+                            Console.Write("</" + reader.Name);
+                            Console.WriteLine(">");
+                            break;
+                    }
                 }
             }
         }

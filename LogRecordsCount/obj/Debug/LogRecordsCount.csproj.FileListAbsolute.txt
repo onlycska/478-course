@@ -3,3 +3,8 @@ C:\Users\andriyanov_oe\source\repos\Meeting\LogRecordsCount\bin\Debug\LogRecords
 C:\Users\andriyanov_oe\source\repos\Meeting\LogRecordsCount\obj\Debug\LogRecordsCount.csproj.CoreCompileInputs.cache
 C:\Users\andriyanov_oe\source\repos\Meeting\LogRecordsCount\obj\Debug\LogRecordsCount.dll
 C:\Users\andriyanov_oe\source\repos\Meeting\LogRecordsCount\obj\Debug\LogRecordsCount.pdb
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\LogRecordsCount\bin\Debug\LogRecordsCount.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\LogRecordsCount\bin\Debug\LogRecordsCount.pdb
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\LogRecordsCount\obj\Debug\LogRecordsCount.csproj.CoreCompileInputs.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\LogRecordsCount\obj\Debug\LogRecordsCount.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\LogRecordsCount\obj\Debug\LogRecordsCount.pdb

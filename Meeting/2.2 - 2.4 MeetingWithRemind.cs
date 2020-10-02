@@ -8,7 +8,7 @@ namespace ConsoleApp1
     public class MeetingWithRemind : Meeting.Meeting, IRemind
     {  
        
-        DateTime IRemind.Reminder { get; set; }
+        // DateTime IRemind.RemindDate { get; set; }
 
         public delegate void RemindTimer(string msg);
         public event RemindTimer TimerHandler;
@@ -38,9 +38,12 @@ namespace ConsoleApp1
         /// <param name="e"></param>
         private void ATimer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
-            if (DateTime.Now >= startdate)
+            if (DateTime.Now >= remindDate)
             {
                 TimerHandler("Событие наступило");
+                this.TimerSetted = false;
+                aTimer.AutoReset = false;
+                aTimer.Enabled = false;
             }
         }
 
@@ -51,9 +54,7 @@ namespace ConsoleApp1
         private void AnotherMessage(string message)
         {
             Console.WriteLine("Another Message: " + message);
-            this.TimerSetted = false;
-            aTimer.AutoReset = true;
-            aTimer.Enabled = true;
+            
         }
 
         /// <summary>
@@ -65,23 +66,21 @@ namespace ConsoleApp1
             Console.WriteLine(msg);
         }
 
-        private static DateTime startdate;
+        private static DateTime remindDate;
 
-        new public DateTime StartDate
+        public DateTime RemindDate
         {
             get
             {
-                return startdate;
+                return remindDate;
             }
 
             set
             {
-                startdate = value;
-                SetTimer();
+                remindDate = value;
+                if (!this.TimerSetted) SetTimer();
             }
         }
-
-        new public DateTime EndDate;
 
     }
 }

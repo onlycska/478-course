@@ -4,3 +4,9 @@ C:\Users\andriyanov_oe\source\repos\Meeting\FileByStrings\obj\Debug\FileByString
 C:\Users\andriyanov_oe\source\repos\Meeting\FileByStrings\obj\Debug\FileByStrings.dll
 C:\Users\andriyanov_oe\source\repos\Meeting\FileByStrings\obj\Debug\FileByStrings.pdb
 C:\Users\andriyanov_oe\source\repos\Meeting\FileByStrings\obj\Debug\FileByStrings.csprojAssemblyReference.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\FileByStrings\bin\Debug\FileByStrings.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\FileByStrings\bin\Debug\FileByStrings.pdb
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\FileByStrings\obj\Debug\FileByStrings.csprojAssemblyReference.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\FileByStrings\obj\Debug\FileByStrings.csproj.CoreCompileInputs.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\FileByStrings\obj\Debug\FileByStrings.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\FileByStrings\obj\Debug\FileByStrings.pdb

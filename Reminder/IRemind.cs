@@ -10,6 +10,6 @@ namespace ConsoleApp1
         /// <summary>
         /// Напоминание о событии
         /// </summary>
-        DateTime Reminder { get; set; }
+        DateTime RemindDate { get; set; }
     }
 }

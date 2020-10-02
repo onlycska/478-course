@@ -3,3 +3,8 @@ C:\Users\andriyanov_oe\source\repos\Meeting\XML\bin\Debug\XML.pdb
 C:\Users\andriyanov_oe\source\repos\Meeting\XML\obj\Debug\XML.csproj.CoreCompileInputs.cache
 C:\Users\andriyanov_oe\source\repos\Meeting\XML\obj\Debug\XML.dll
 C:\Users\andriyanov_oe\source\repos\Meeting\XML\obj\Debug\XML.pdb
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\XML\bin\Debug\XML.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\XML\bin\Debug\XML.pdb
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\XML\obj\Debug\XML.csproj.CoreCompileInputs.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\XML\obj\Debug\XML.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\XML\obj\Debug\XML.pdb

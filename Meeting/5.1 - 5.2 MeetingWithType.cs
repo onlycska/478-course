@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ConsoleApp1
 {
@@ -21,7 +23,7 @@ namespace ConsoleApp1
         
         public object GetMeetingName(MeetingType type)
         {
-            return available_types[(int) type];
+            return available_types.ElementAt((int)type);
         }
         
         public MeetingWithType() {
@@ -32,7 +34,7 @@ namespace ConsoleApp1
 
         public override string ToString()
         {
-            return base.ToString() + ": " + available_types[(int)type];
+            return base.ToString() + ": " + available_types.ElementAt((int)type);
         }
         
         public MeetingType Type
@@ -50,7 +52,7 @@ namespace ConsoleApp1
         /// <summary>
         /// Доступные типы встреч.
         /// </summary>
-        readonly ArrayList available_types = new ArrayList() {
+        readonly HashSet<string> available_types = new HashSet<string>{
             "совещание", "поручение", "звонок", "день рождения"
         };
 

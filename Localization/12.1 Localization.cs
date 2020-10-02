@@ -35,8 +35,15 @@ namespace ConsoleApp1
         /// <returns>Строка локализации.</returns>
         public static string GetValue(string localeString, string language)
         {
-            var value = localeDict[language][localeString];
-            return value;
+            if (localeDict.ContainsKey(language))
+            {
+                if (localeDict[language].ContainsKey(localeString))
+                {
+                    var value = localeDict[language][localeString];
+                    return value;
+                }
+            }
+            return language + " " + localeString;
         }
     }
 }

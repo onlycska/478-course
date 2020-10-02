@@ -4,3 +4,9 @@ C:\Users\andriyanov_oe\source\repos\Meeting\Logger\obj\Debug\Logger.csprojAssemb
 C:\Users\andriyanov_oe\source\repos\Meeting\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
 C:\Users\andriyanov_oe\source\repos\Meeting\Logger\obj\Debug\Logger.dll
 C:\Users\andriyanov_oe\source\repos\Meeting\Logger\obj\Debug\Logger.pdb
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Logger\bin\Debug\Logger.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Logger\bin\Debug\Logger.pdb
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Logger\obj\Debug\Logger.csprojAssemblyReference.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Logger\obj\Debug\Logger.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Logger\obj\Debug\Logger.pdb

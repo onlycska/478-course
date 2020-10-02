@@ -4,3 +4,9 @@ C:\Users\andriyanov_oe\source\repos\Meeting\MethodProperties\obj\Debug\MethodPro
 C:\Users\andriyanov_oe\source\repos\Meeting\MethodProperties\obj\Debug\MethodProperties.dll
 C:\Users\andriyanov_oe\source\repos\Meeting\MethodProperties\obj\Debug\MethodProperties.pdb
 C:\Users\andriyanov_oe\source\repos\Meeting\MethodProperties\obj\Debug\MethodProperties.csprojAssemblyReference.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\MethodProperties\bin\Debug\MethodProperties.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\MethodProperties\bin\Debug\MethodProperties.pdb
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\MethodProperties\obj\Debug\MethodProperties.csprojAssemblyReference.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\MethodProperties\obj\Debug\MethodProperties.csproj.CoreCompileInputs.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\MethodProperties\obj\Debug\MethodProperties.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\MethodProperties\obj\Debug\MethodProperties.pdb

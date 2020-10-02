@@ -10,7 +10,6 @@ namespace ConsoleApp1
     {
        
 	    public double Re, Im;
-        private double abs;
 
         public Complex() { Re = 0; Im = 0;  }
 
@@ -22,8 +21,7 @@ namespace ConsoleApp1
         {
             get
             {
-                abs = Math.Sqrt(Math.Pow(this.Re, 2) + Math.Pow(this.Im, 2));
-                return abs;
+                return Math.Sqrt(Math.Pow(this.Re, 2) + Math.Pow(this.Im, 2));
             }
         }
 
@@ -35,7 +33,7 @@ namespace ConsoleApp1
         public int CompareTo(object obj)
         {
             if (obj is Complex p)
-                return this.abs.CompareTo(p.abs);
+                return this.Abs.CompareTo(p.Abs);
             throw new Exception("Невозможно сравнить два объекта");
         }
 
@@ -70,9 +68,9 @@ namespace ConsoleApp1
         /// <returns>1, если первое число больше. -1, если второе число больше. 0, если числа равны.</returns>
         int IComparer<Complex>.Compare(Complex a, Complex b)
         {
-            if (a.abs > b.abs)
+            if (a.Abs > b.Abs)
                 return 1;
-            if (a.abs < b.abs)
+            if (a.Abs < b.Abs)
                 return -1;
             return 0;
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\DLLMethodProperties\\DLLMethodProperties.csproj": {}
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\DLLMethodProperties\\DLLMethodProperties.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\DLLMethodProperties\\DLLMethodProperties.csproj": {
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\DLLMethodProperties\\DLLMethodProperties.csproj": {
       "version": "2.1.3",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\DLLMethodProperties\\DLLMethodProperties.csproj",
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\DLLMethodProperties\\DLLMethodProperties.csproj",
         "projectName": "DLLMethodProperties2",
-        "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\DLLMethodProperties\\DLLMethodProperties.csproj",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\DLLMethodProperties\\DLLMethodProperties.csproj",
         "packagesPath": "C:\\Users\\andriyanov_oe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\DLLMethodProperties\\obj\\",
+        "outputPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\DLLMethodProperties\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\andriyanov_oe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Meeting\\Meeting.csproj": {
-                "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Meeting\\Meeting.csproj"
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Meeting\\Meeting.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Meeting\\Meeting.csproj"
               }
             }
           }
@@ -63,17 +63,17 @@
         }
       }
     },
-    "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Meeting\\Meeting.csproj": {
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Meeting\\Meeting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Meeting\\Meeting.csproj",
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Meeting\\Meeting.csproj",
         "projectName": "Meeting",
-        "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Meeting\\Meeting.csproj",
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Meeting\\Meeting.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Reminder\\Reminder.csproj": {
-                "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Reminder\\Reminder.csproj"
+              "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Reminder\\Reminder.csproj": {
+                "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Reminder\\Reminder.csproj"
               }
             }
           }
@@ -83,12 +83,12 @@
         "net472": {}
       }
     },
-    "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Reminder\\Reminder.csproj": {
+    "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Reminder\\Reminder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Reminder\\Reminder.csproj",
+        "projectUniqueName": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Reminder\\Reminder.csproj",
         "projectName": "Reminder",
-        "projectPath": "C:\\Users\\andriyanov_oe\\source\\repos\\Meeting\\Reminder\\Reminder.csproj"
+        "projectPath": "C:\\Users\\andriyanov_oe\\Downloads\\478-course-feature\\478-course-feature\\478-course\\Reminder\\Reminder.csproj"
       },
       "frameworks": {
         "net472": {}

@@ -9,3 +9,13 @@ C:\Users\andriyanov_oe\source\repos\Meeting\Excel\obj\Debug\Excel.dll
 C:\Users\andriyanov_oe\source\repos\Meeting\Excel\obj\Debug\Excel.pdb
 C:\Users\andriyanov_oe\source\repos\Meeting\Excel\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
 C:\Users\andriyanov_oe\source\repos\Meeting\Excel\obj\Debug\Excel.csproj.ResolveComReference.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Excel\bin\Debug\Excel.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Excel\bin\Debug\Excel.pdb
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Excel\bin\Debug\Westwind.Utilities.xml
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Excel\obj\Debug\Excel.csprojAssemblyReference.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Excel\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Excel\obj\Debug\Excel.csproj.ResolveComReference.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Excel\obj\Debug\Excel.csproj.CoreCompileInputs.cache
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Excel\obj\Debug\Excel.csproj.CopyComplete
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Excel\obj\Debug\Excel.dll
+C:\Users\andriyanov_oe\Downloads\478-course-feature\478-course-feature\478-course\Excel\obj\Debug\Excel.pdb

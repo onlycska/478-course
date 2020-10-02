@@ -21,40 +21,28 @@ namespace ConsoleApp1
             // бросаем исключение, если передан неверный порядок дат
             if (startDate > endDate)
             {
-                throw new Exception("start date is bigger than end date");
+                throw new ArgumentException("start date is bigger than end date");
             }
-    
-            if (File.Exists(path))
+            
+            int recordsCount = 0;
+            string[] fileStrings = File.ReadAllLines(path);
+            foreach (string line in fileStrings)
             {
-                int recordsCount = 0;
-                string[] fileStrings = File.ReadAllLines(path);
-                foreach (string line in fileStrings)
+                var lineArr = line.Split('\t');
+                if (DateTime.TryParseExact(lineArr[0], "yyyy-MM-ddThh:mm:ss.fffK", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime dateValue)) ;
                 {
-                    var lineArr = line.Split('\t');
-                    if (DateTime.TryParseExact(lineArr[0], "yyyy-MM-ddThh:mm:ss.fffK", CultureInfo.InvariantCulture, DateTimeStyles.None, out DateTime dateValue)) ;
+                    Console.WriteLine(dateValue);
+                    if (dateValue >= startDate && dateValue <= endDate)
                     {
-                        Console.WriteLine(dateValue);
-                        if (dateValue >= startDate && dateValue <= endDate)
-                        {
-                            recordsCount++;
-                        }
-                        else if (dateValue < startDate)
-                        {
-                            continue;
-                        }
-                        else
-                        {
-                            break;
-                        }
+                        recordsCount++;
+                    }
+                    else if (dateValue > endDate)
+                    {
+                        break;
                     }
                 }
-                return recordsCount;
             }
-            else
-            {
-                throw new FileNotFoundException("File doesn't exist");
-            }
+            return recordsCount;
         }
     }
-
 }

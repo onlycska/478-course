@@ -36,11 +36,12 @@ namespace ConsoleApp1
             Console.WriteLine("\n\n2.2-2.4 - создание интерфейса IRemind и его наследника - встречу с напоминанием\n");
             var meet = new MeetingWithRemind
             {
+                RemindDate = DateTime.Now,
                 StartDate = DateTime.Now,
                 EndDate = DateTime.Now
             };
 
-            ((IRemind)meet).Reminder = DateTime.Now;
+            ((IRemind)meet).RemindDate = DateTime.Now;
             var duration = meet.MeetingDuration();
             Console.WriteLine(value: duration);
             while (true)
@@ -150,13 +151,14 @@ namespace ConsoleApp1
             // + 
             var methodProperties = new MethodProperties();
             methodProperties.PrintMethodProperties(meetingwithtype);
+            methodProperties.PrintMethodProperties(null);
 
             // самостоятельная 13 - вывод имен всех свойств кроме Obsolete с помощью конструктора класса
             // todo Лучше использование и инициализацию держать рядом (т.е. 127 строчку перенести перед 131) + см. замечания в классе AssemblyMethodProperties
             // +
             var assemblyMethodProperties = new AssemblyMethodProperties();
             var currentAssemblyName = Assembly.GetExecutingAssembly().FullName;
-            string findedClass = "meetingwithtype";
+            string findedClass = "MeetingWithType";
             assemblyMethodProperties.PrintMethodProperties(currentAssemblyName, findedClass);
 
             // самостоятельная 14 - чтение XML
